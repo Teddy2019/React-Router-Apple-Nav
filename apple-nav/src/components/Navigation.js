@@ -17,16 +17,16 @@ class Navigation extends React.Component {
     render(){
         return (
             <div className="Nav">
-                <img src={appimg} alt={`apple`} />
-                <img src={macimg } alt={`mac`} />
-                <img src={ipadimg} alt={'ipad'} />
-                <img src={iphoneimg} alt={`iphone`} />
-                <img src={watchimg} alt={`watch`} />
-                <img src={tvimg} alt={`tv`} />
-                <img src={musicimg} alt={`music`} />
-                <img src={supportimg} alt={`support`} />
-                <img src={searchimg} alt={`search`} />
-                <img src={bagimg} alt={`bag`} />
+                <img className='Navimg' src={appimg} alt={`apple`} />
+                <img className='Navimg'src={macimg } alt={`mac`} />
+                <img className='Navimg'src={ipadimg} alt={'ipad'} />
+                <img className='Navimg'src={iphoneimg} alt={`iphone`} />
+                <img className='Navimg'src={watchimg} alt={`watch`} />
+                <img className='Navimg'src={tvimg} alt={`tv`} />
+                <img className='Navimg'src={musicimg} alt={`music`} />
+                <img className='Navimg'src={supportimg} alt={`support`} />
+                <img className='Navimg'src={searchimg} alt={`search`} />
+                <img className='Navimg bag'src={bagimg} alt={`bag`} />
             </div>
         )
     }
