@@ -18,8 +18,8 @@ class Navigation extends React.Component {
     render(){
         return (
             <div className="Nav">
-                <Link to='/'><img  className='Navimg' src={appimg} alt={`apple`} /></Link>
-                <img className='Navimg'src={macimg } alt={`mac`} />
+                <Link to='/'><img className='Linkimg'  src={appimg} alt={`apple`} /></Link>
+                <Link to='/Mac'><img className='Linkimg' src={macimg } alt={`mac`} /></Link>
                 <img className='Navimg'src={ipadimg} alt={'ipad'} />
                 <img className='Navimg'src={iphoneimg} alt={`iphone`} />
                 <img className='Navimg'src={watchimg} alt={`watch`} />
