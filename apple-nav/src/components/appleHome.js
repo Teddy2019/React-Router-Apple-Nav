@@ -1,5 +1,5 @@
 import React from 'react';
-import appleHome from '../images/appleHome.jpg';
+import appleHome from '../images/appleHome.JPG';
 
 function AppleHome() {
     return (

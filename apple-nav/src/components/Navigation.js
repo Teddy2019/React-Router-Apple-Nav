@@ -9,6 +9,7 @@ import musicimg from '../images/music.png';
 import supportimg from '../images/support.png';
 import searchimg from '../images/search.png';
 import bagimg from '../images/bag.png';
+import { Link } from 'react-router-dom';
 
 class Navigation extends React.Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class Navigation extends React.Component {
     render(){
         return (
             <div className="Nav">
-                <img className='Navimg' src={appimg} alt={`apple`} />
+                <Link to='/'><img  className='Navimg' src={appimg} alt={`apple`} /></Link>
                 <img className='Navimg'src={macimg } alt={`mac`} />
                 <img className='Navimg'src={ipadimg} alt={'ipad'} />
                 <img className='Navimg'src={iphoneimg} alt={`iphone`} />
