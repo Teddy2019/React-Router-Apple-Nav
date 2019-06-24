@@ -10,7 +10,7 @@
   justify-content: space-around;
   padding-right: 1%;
   padding-left: 3%;
-  margin: 2% auto;
+  margin: 0 auto;
   background: rgb(4, 43, 43);
 }
 
@@ -38,6 +38,6 @@ Link {
   justify-content: space-around;
   padding-right: 1%;
   padding-left: 3%;
-  margin: 2% auto;
-  background: rgb(248, 245, 245);
+  margin: 0.2% auto;
+  background: rgb(245, 244, 244);
 }
