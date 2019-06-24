@@ -7,12 +7,13 @@ import imacpro from '../images/imacpro.JPG';
 import compare from '../images/compare.JPG';
 import accessories from '../images/accessories.JPG';
 import mojave from '../images/mojave.JPG';
+import { Link } from 'react-router-dom';
 
 
 function MacNav (){
     return (
         <div className='Macnavdiv'>
-            <img className='Macnav' src={macbook} alt= 'macbook small' />
+            <Link to='/macbook' ><img className='Macnav' src={macbook} alt= 'macbook small' /></Link>
             <img className='Macnav' src={macbookair} alt = 'mac book air' />
             <img className='Macnav' src={macbookpro} alt = 'mac book pro' />
             <img className='Macnav' src={imac} alt = 'imac' />

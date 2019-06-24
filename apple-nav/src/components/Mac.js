@@ -2,6 +2,9 @@ import React from 'react';
 import mac1 from '../images/mac1.JPG';
 import mac2 from '../images/mac2.JPG';
 import MacNav from './macNav';
+import { Route} from 'react-router-dom';
+import Macbook from './Macbook';
+
 class Mac extends React.Component {
     constructor(props) {
         super(props);
@@ -17,6 +20,7 @@ class Mac extends React.Component {
              <h3>Pro Display XDR</h3>
              <h1>Believing is seeing.</h1>
              <img src={mac2} alt='mac 3d' />
+             <Route path='/macbook' exact render={()=> <Macbook />} />
          </div>
      )
  }
