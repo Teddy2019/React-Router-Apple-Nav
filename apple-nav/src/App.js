@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import { Route } from 'react-router-dom';
 import AppleHome from './components/appleHome';
 import Mac from './components/Mac';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props){
@@ -15,7 +16,7 @@ class App extends React.Component {
       <div className="App">
         <Navigation />
         <Route path='/' exact render={()=> <AppleHome />} />
-        <Route path='/Mac' exact render={()=> <Mac />} />
+        <Route path='/Mac' exact render={()=> <Router><Mac /></Router>} />
       </div>
     );
   }
